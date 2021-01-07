@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AspNetCore.NTier.DataAccess\AspNetCore.NTier.DataAccess.csproj" />
+  </ItemGroup>
+
 </Project>
